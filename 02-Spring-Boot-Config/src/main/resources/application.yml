@@ -1,0 +1,7 @@
+blog:
+  name: Eric
+  title: Spring Boot
+
+spring:
+  profiles:
+    active: dev
