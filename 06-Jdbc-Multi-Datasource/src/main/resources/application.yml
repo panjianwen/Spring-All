@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    druid:
+      # 数据库访问配置, 使用druid数据源
+      # 数据源1 master
+      master:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/spring
+        username: root
+        password: 123456
+      # 数据源2 cluster
+      cluster:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/spring_cluster
+        username: root
+        password: 123456
+      #慢 SQL 检测,超过100ms
+      filter:
+        stat:
+          log-slow-sql: true
+          slow-sql-millis: 100
+
+server:
+  port: 8006
