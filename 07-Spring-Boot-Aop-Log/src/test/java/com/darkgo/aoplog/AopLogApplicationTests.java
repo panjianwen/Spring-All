@@ -1,10 +1,10 @@
-package com.darkgo.jdbctemplate;
+package com.darkgo.aoplog;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JdbcTemplateApplicationTests {
+class AopLogApplicationTests {
 
     @Test
     void contextLoads() {

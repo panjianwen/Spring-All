@@ -1,13 +1,13 @@
-package com.darkgo.jdbctemplate;
+package com.darkgo.aoplog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JdbcTemplateApplication {
+public class AopLogApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(JdbcTemplateApplication.class, args);
+        SpringApplication.run(AopLogApplication.class, args);
     }
 
 }
