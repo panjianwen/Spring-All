@@ -1,0 +1,11 @@
+spring:
+  cache:
+    ehcache:
+      config: ehcache.xml
+  datasource:
+    druid:
+      username: root
+      password: 123456
+      url: jdbc:mysql://localhost:3306/spring
+server:
+  port: 8010
