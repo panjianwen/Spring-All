@@ -1,0 +1,6 @@
+server:
+  port: 8018
+logging:
+  file:
+    path: ./
+    name: my.log
